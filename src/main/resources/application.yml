@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: demoProject
+
+  main:
+    banner-mode: off
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+springdoc:
+
+  api-docs:
+    path: /api-docs
+
+  show-actuator: true
+
+  swagger-ui:
+    show-extensions: true
+    operations-sorter: method
+
+server:
+  port: 8080
