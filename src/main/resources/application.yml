@@ -17,8 +17,6 @@ springdoc:
   show-actuator: true
 
   swagger-ui:
-    show-extensions: true
-    operations-sorter: method
     enabled: true
 
 server:
